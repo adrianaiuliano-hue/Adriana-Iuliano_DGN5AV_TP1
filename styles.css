@@ -1,0 +1,845 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    background-color: #EBF6F8;
+    color: #263b42;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+/* CONTENEDORES GENERALES */
+
+
+.seccion {
+    width: 1900px;
+    max-width: 90%;
+    margin: 10px auto 0;
+    background-color: #F6FBFC;
+    padding: 42px 0;
+}
+
+
+.contenedor {
+    width: 1100px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+    /* ENCABEZADO */
+
+
+.encabezado {
+    background-color: #F6FBFC;
+    border-bottom: 1px solid #c9dddd;
+    height: 82px;
+}
+
+
+.encabezado-contenido {
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    display: block;
+    width: 250px;
+}
+
+
+.logo img {
+    width: 300px;
+    height: auto;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.menu a {
+    color: #263b42;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.menu a:hover {
+    color: #4e849b;
+}
+
+
+    /* INICIO */
+
+
+.inicio {
+
+
+    width: 1900px;
+    max-width: 90%;
+    margin: 10px auto 0;
+    background-color: #f5fbfb;
+    padding: 45px 0;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.elementos {
+    position: absolute;
+    width: 130px;
+    height: auto;
+    left: 100px;
+    top: 50px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+
+   /* CONTENIDO */
+
+
+.inicio-contenido {
+
+
+    min-height: 390px;
+
+
+    display: flex;
+
+
+    align-items: center;
+
+
+    justify-content: space-between;
+
+
+    position: relative;
+
+
+    z-index: 2;
+
+
+}
+
+
+
+
+.inicio-texto {
+
+
+    width: 48%;
+
+
+}
+
+
+
+
+.inicio-texto h1 {
+
+
+    margin: 0 0 14px;
+
+
+    color: #30485a;
+
+
+    font-family: "Nunito", sans-serif;
+
+
+    font-size: 48px;
+
+
+    line-height: 0.95;
+
+
+    font-weight: 800;
+
+
+}
+
+
+
+
+.inicio-subtitulo {
+    margin: 0 0 25px;
+    color: #4e6872;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+.inicio-datos p {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+
+
+
+
+
+.inicio-datos strong {
+
+
+    font-weight: 700;
+
+
+}
+
+
+.inicio-texto .boton {
+    margin-top: 35px;
+}
+
+
+
+
+    /*  NENA */
+
+
+.inicio-ilustracion {
+
+
+    width: 48%;
+
+
+    position: static;
+
+
+    min-height: 390px;
+
+
+    display: flex;
+
+
+    align-items: center;
+
+
+    justify-content: flex-end;
+
+
+}
+
+
+
+
+.inicio-ilustracion img {
+    width: 850px;
+    max-width: none;
+    height: auto;
+    display: block;
+    position: relative;
+    right: -250px;
+    z-index: 2;
+}
+
+
+   /* MONTAÑA */
+
+
+.montana {
+    position: absolute;
+    width: 115%;
+    max-width: none;
+    height: auto;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+
+
+    /* BOTÓN */
+.boton {
+    display: inline-block;
+    padding: 12px 26px;
+    background-color: #477c93;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.boton:hover {
+
+
+    background-color: #365f71;
+
+
+}
+
+
+/* BOTONES */
+
+
+.boton {
+    display: inline-block;
+    padding: 11px 24px;
+    background-color: #477c93;
+    color: #ffffff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+
+.boton:hover {
+    background-color: #365f71;
+}
+
+
+
+
+/* TÍTULOS DE SECCIÓN */
+
+
+.titulo-seccion {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 28px;
+}
+
+
+.numero-seccion {
+    color: #7da5b3;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.titulo-seccion h2 {
+    margin: 0;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.introduccion-seccion {
+    margin: 0 0 28px;
+    color: #587078;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+/* EL FESTIVAL */
+
+
+.festival-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.festival .titulo-seccion {
+    margin-bottom: 15px;
+    transform: translateY(100px);
+}
+
+
+.festival-texto {
+    width: 44%;
+    padding-top: 110px;
+}
+
+
+.festival-texto p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+}
+
+
+.texto-destacado {
+    color: #30485a;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.festival-imagen {
+    width: 51%;
+}
+
+
+.festival-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* VIDEO DEL FESTIVAL */
+
+
+.festival-video {
+    width: 100%;
+    margin: 40px auto 0;
+    padding-top: 25px;
+    border-top: 1px solid #d9e7e7;
+}
+
+
+.festival-video h3 {
+    margin: 0 0 15px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
+
+
+.festival-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+/* ACTIVIDADES */
+
+
+.actividades-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+
+.actividad {
+    width: 20%;
+    text-align: center;
+}
+
+
+
+
+/* TAMAÑO DE LOS ÍCONOS */
+
+
+.actividad-icono {
+    width: 105px;
+    height: 105px;
+    margin: 0 auto 15px;
+}
+
+
+.actividad-icono img {
+    width: 105px;
+    height: 105px;
+    object-fit: contain;
+}
+
+
+.actividad h3 {
+    min-height: 42px;
+    margin: 0 0 9px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+
+.actividad p {
+    margin: 0;
+    color: #62777d;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
+
+
+/* BOTÓN VER TODAS */
+
+
+.actividades-boton {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+/* LIBROS INFANTILES */
+
+
+.libros-contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+
+.libros-imagen {
+    width: 53%;
+}
+
+
+.libros-imagen img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.libros-texto {
+    width: 42%;
+}
+
+
+.libros-texto h3 {
+    margin: 0 0 13px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+
+.libros-texto p {
+    margin: 0 0 14px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+.libros-texto ul {
+    margin: 12px 0 20px;
+    padding-left: 20px;
+}
+
+
+.libros-texto li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+
+
+/* CÓMO LLEGAR */
+
+
+
+
+.ubicacion {
+    background-color: #F6FBFC;
+}
+
+
+.ubicacion-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+
+
+.mapa {
+    width: 55%;
+}
+
+
+.mapa img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.transporte {
+    width: 40%;
+}
+
+
+.transporte h3 {
+    margin: 0 0 12px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+
+.transporte p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.transporte h4 {
+    margin: 0 0 10px;
+    color: #6e9aaa;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.transporte ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+.transporte li {
+    margin-bottom: 9px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+
+/* LA SEDE - CENTRO CULTURAL RECOLETA */
+
+
+.sede {
+    background-color: #F6FBFC;
+}
+
+
+.recoleta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+
+
+.recoleta-imagen {
+    width: 43%;
+}
+
+
+.recoleta-imagen img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.recoleta-texto {
+    width: 52%;
+}
+
+
+.etiqueta {
+    color: #6e9aaa;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+.recoleta-texto h3 {
+    margin: 7px 0 12px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+
+.recoleta-texto p {
+    margin: 0 0 18px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+/* CONTACTO + FAQ */
+
+
+.contacto-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.formulario {
+    width: 48%;
+    padding-right: 35px;
+    border-right: 1px solid #cbdede;
+}
+
+
+.formulario h3,
+.faq h3 {
+    margin: 0 0 8px;
+    color: #30485a;
+    font-family: "Nunito", sans-serif;
+    font-size: 21px;
+}
+
+
+.formulario > p {
+    margin: 0 0 18px;
+    font-size: 14px;
+}
+
+
+.campo {
+    margin-bottom: 12px;
+}
+
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+.campo input,
+.campo textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b8ced2;
+    background-color: #f8fcfc;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+}
+
+
+.campo textarea {
+    resize: vertical;
+}
+
+
+.formulario .boton {
+    margin-top: 3px;
+}
+
+
+
+
+/* FAQ */
+
+
+.faq {
+    width: 48%;
+}
+
+
+.pregunta {
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #d8e6e6;
+}
+
+
+.pregunta h4 {
+    margin: 0 0 8px;
+    color: #30485a;
+    font-size: 14px;
+}
+
+
+.pregunta p {
+    margin: 0;
+    color: #60747a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    background: #507996;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+.redes {
+    margin-bottom: 20px;
+}
+
+
+.redes a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.redes img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin: 5px;
+}
+
+
+.footer p {
+    margin: 6px;
+    font-size: 14px;
+}
+
+
+
+
+/* Diseño DESKTOP */
+/* Pensado para pantalla de aproximadamente 1440 px de ancho */
+
+
