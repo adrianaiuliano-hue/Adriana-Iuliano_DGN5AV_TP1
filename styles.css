@@ -18,8 +18,6 @@ body {
 }
 
 
-
-
 /* CONTENEDORES GENERALES */
 
 
@@ -45,9 +43,7 @@ img {
 }
 
 
-
-
-    /* ENCABEZADO */
+/* ENCABEZADO */
 
 
 .encabezado {
@@ -97,8 +93,7 @@ img {
     color: #4e849b;
 }
 
-
-    /* INICIO */
+/* INICIO */
 
 
 .inicio {
@@ -125,7 +120,7 @@ img {
 }
 
 
-   /* CONTENIDO */
+/* CONTENIDO */
 
 
 .inicio-contenido {
@@ -148,10 +143,7 @@ img {
 
     z-index: 2;
 
-
 }
-
-
 
 
 .inicio-texto {
@@ -159,11 +151,7 @@ img {
 
     width: 48%;
 
-
 }
-
-
-
 
 .inicio-texto h1 {
 
@@ -185,11 +173,7 @@ img {
 
     font-weight: 800;
 
-
 }
-
-
-
 
 .inicio-subtitulo {
     margin: 0 0 25px;
@@ -204,28 +188,19 @@ img {
     font-size: 17px;
 }
 
-
-
-
-
-
 .inicio-datos strong {
 
 
     font-weight: 700;
 
-
 }
-
 
 .inicio-texto .boton {
     margin-top: 35px;
 }
 
 
-
-
-    /*  NENA */
+/*  NENA */
 
 
 .inicio-ilustracion {
@@ -251,9 +226,6 @@ img {
 
 }
 
-
-
-
 .inicio-ilustracion img {
     width: 850px;
     max-width: none;
@@ -264,8 +236,7 @@ img {
     z-index: 2;
 }
 
-
-   /* MONTAÑA */
+/* MONTAÑA */
 
 
 .montana {
@@ -279,36 +250,6 @@ img {
     z-index: 1;
     pointer-events: none;
 }
-
-
-
-
-    /* BOTÓN */
-.boton {
-    display: inline-block;
-    padding: 12px 26px;
-    background-color: #477c93;
-    color: #ffffff;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-}
-
-
-
-
-.boton:hover {
-
-
-    background-color: #365f71;
-
-
-}
-
 
 /* BOTONES */
 
@@ -331,8 +272,6 @@ img {
 .boton:hover {
     background-color: #365f71;
 }
-
-
 
 
 /* TÍTULOS DE SECCIÓN */
@@ -368,8 +307,6 @@ img {
     font-size: 15px;
     line-height: 1.5;
 }
-
-
 
 
 /* EL FESTIVAL */
@@ -418,8 +355,6 @@ img {
 }
 
 
-
-
 /* VIDEO DEL FESTIVAL */
 
 
@@ -446,8 +381,6 @@ img {
 }
 
 
-
-
 /* ACTIVIDADES */
 
 
@@ -462,8 +395,6 @@ img {
     width: 20%;
     text-align: center;
 }
-
-
 
 
 /* TAMAÑO DE LOS ÍCONOS */
@@ -501,8 +432,6 @@ img {
 }
 
 
-
-
 /* BOTÓN VER TODAS */
 
 
@@ -510,9 +439,6 @@ img {
     text-align: center;
     margin-top: 25px;
 }
-
-
-
 
 /* LIBROS INFANTILES */
 
@@ -570,18 +496,11 @@ img {
     line-height: 1.4;
 }
 
-
-
-
 /* CÓMO LLEGAR */
-
-
-
 
 .ubicacion {
     background-color: #F6FBFC;
 }
-
 
 .ubicacion-contenido {
     display: flex;
@@ -606,7 +525,6 @@ img {
 .transporte {
     width: 40%;
 }
-
 
 .transporte h3 {
     margin: 0 0 12px;
@@ -643,8 +561,6 @@ img {
     font-size: 15px;
     line-height: 1.5;
 }
-
-
 
 
 /* LA SEDE - CENTRO CULTURAL RECOLETA */
@@ -768,9 +684,6 @@ img {
     margin-top: 3px;
 }
 
-
-
-
 /* FAQ */
 
 
@@ -837,9 +750,6 @@ img {
 }
 
 
-
-
 /* Diseño DESKTOP */
-/* Pensado para pantalla de aproximadamente 1440 px de ancho */
 
 
